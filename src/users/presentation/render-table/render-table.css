@@ -4,3 +4,11 @@ table {
     border-radius: 5px;
     padding: 5px;
 }
+
+.select {
+    color: rgb(21, 105, 222);
+}
+
+.delete {
+    color: rgb(241, 42, 42);
+}

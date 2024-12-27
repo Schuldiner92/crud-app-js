@@ -11,6 +11,8 @@ export const loadUsersByPage = async(page = 1) => {
     const res = await fetch(url);
     const data = await res.json();
 
+    if ( page > data.last ) return []; // Evitar que "muestre" páginas que no existen
+
     const users = data.data.map(localHostUserToModel);
     // console.log(users);
 

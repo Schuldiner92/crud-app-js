@@ -1,0 +1,10 @@
+
+button {
+    margin: 10px;
+    background-color: rgb(209, 211, 215);
+}
+
+#current-page {
+    font-size: 1.3rem;
+    margin: 10px;
+}
