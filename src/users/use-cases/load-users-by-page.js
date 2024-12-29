@@ -13,7 +13,7 @@ export const loadUsersByPage = async(page = 1) => {
 
     if ( page > data.last ) return []; // Evitar que "muestre" páginas que no existen
 
-    const users = data.data.map(localHostUserToModel);
+    const users = data.map(localHostUserToModel);
     // console.log(users);
 
     return users;
