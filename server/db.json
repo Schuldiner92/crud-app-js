@@ -2,7 +2,7 @@
   "users": [
     {
       "id": 1,
-      "isActive": true,
+      "isActive": false,
       "balance": 1397.32,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Ryan",
@@ -449,13 +449,6 @@
       "first_name": "Mcbride",
       "last_name": "Woodward",
       "gender": "male"
-    },
-    {
-      "balance": 1234,
-      "first_name": "di",
-      "isActive": true,
-      "last_name": "le",
-      "id": 51
     }
   ]
 }
